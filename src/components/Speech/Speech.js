@@ -1,13 +1,17 @@
 import React from "react"
 import {Navibar} from "../Navibar/Navibar";
+import Dictaphone from "../Dictaphone/Dictaphone";
 
-export class Accueil extends React.Component {
+
+export class Speech extends React.Component {
     render() {
         return(
             <div>
                 <Navibar/>
-                <h1>Hello Accueil</h1>
+                <h1>Hello Speech</h1>
+                <Dictaphone/>
             </div>
+
         )
     }
 }
