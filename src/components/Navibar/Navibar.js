@@ -1,12 +1,12 @@
 import React from "react"
 import {Nav, Navbar, NavDropdown} from "react-bootstrap";
-import logo from 'C:/Users/Nathan/Desktop/shiro-react/src/img/logo.png'
+// import logo from 'C:/Users/Nathan/Desktop/shiro-react/src/img/logo.png'
 
 export class Navibar extends React.Component {
     render() {
         return(
             <Navbar bg="light" expand="lg">
-                <Navbar.Brand href="Accueil"><img src={logo} alt="Logo" /></Navbar.Brand>
+                {/*<Navbar.Brand href="Accueil"><img src={logo} alt="Logo" /></Navbar.Brand>*/}
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
