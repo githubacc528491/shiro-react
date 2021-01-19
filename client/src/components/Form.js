@@ -27,7 +27,8 @@ const Form = () => {
 
     const handleSubmit = () => {
         try {
-            fetch("http://localhost:9000/api/cro", {
+            // fetch("http://db-mysql-fra1-80161-do-user-8129315-0.b.db.ondigitalocean.com:25060/cro", {
+                fetch("http://localhost:9000/api/cro", {
                 method: "POST",
                 headers: {
                     Accept: "application/json",

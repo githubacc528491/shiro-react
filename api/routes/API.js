@@ -9,6 +9,12 @@ db.configure({
     password: "password",
     database: "shiro",
 });
+// db.configure({
+//     host: "db-mysql-fra1-80161-do-user-8129315-0.b.db.ondigitalocean.com",
+//     user: "doadmin",
+//     password: "",
+//     database: "shiro",
+// });
 
 /* GET meds listing. */
 router.get("/meds", async (req, res, next) => {
